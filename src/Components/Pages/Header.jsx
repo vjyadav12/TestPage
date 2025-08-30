@@ -1,6 +1,7 @@
 import  { useState } from "react";
 import { ShoppingCart, Search, Menu, X } from "lucide-react";
 import { FaUserAlt } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,18 +14,18 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8">
-          <a href="#" className="hover:text-yellow-500">
+          <Link to="#" className="hover:text-yellow-500">
             Home
-          </a>
-          <a href="#" className="hover:text-yellow-500">
+          </Link>
+          <Link to="#" className="hover:text-yellow-500">
             About
-          </a>
-          <a href="#" className="hover:text-yellow-500">
+          </Link>
+          <Link to="#" className="hover:text-yellow-500">
             Services
-          </a>
-          <a href="#" className="hover:text-yellow-500">
+          </Link>
+          <Link to="#" className="hover:text-yellow-500">
             Contact
-          </a>
+          </Link>
         </div>
 
         {/* Icons */}
