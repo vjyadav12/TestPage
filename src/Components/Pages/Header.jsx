@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { ShoppingCart, Search, Menu, X } from "lucide-react";
+import { FaUserAlt } from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,7 +31,7 @@ const Navbar = () => {
         <div className="flex items-center space-x-4">
           <ShoppingCart className="w-6 h-6 cursor-pointer" />
           <Search className="w-6 h-6 cursor-pointer" />
-
+          <a href="/login"><FaUserAlt className="w-6 h-6 cursor-pointer"/></a>
           {/* Hamburger Menu (only mobile) */}
           <button onClick={() => setIsOpen(!isOpen)} className="md:hidden">
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
