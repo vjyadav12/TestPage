@@ -5,21 +5,24 @@ import LoginPage from "./Components/Pages/LoginPage";
 import { Routes, Route, useLocation } from "react-router-dom";
 
 function App() {
-  const location = useLocation();
+  // const location = useLocation();
 
   // check if current path is login
-  const hideLayout = location.pathname === "/login";
+  // const hideLayout = location.pathname === "/login";
 
   return (
     <>
-      {!hideLayout && <Header />}
+      {/* {!hideLayout && <Header />} */}
+
+      <Header />
 
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<LoginPage />} />
       </Routes>
 
-      {!hideLayout && <Footer />}
+      <Footer />
+      {/* {!hideLayout && <Footer />} */}
     </>
   );
 }
