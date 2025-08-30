@@ -1,4 +1,3 @@
-import img from "../../assets/successful-handsome-man-by-car.jpg";
 import BannerSection from "./BannerSection";
 import SeasonSelection from "./FirstSection";
 import ProductGrid from "./ProductPages";

@@ -1,6 +1,5 @@
 
 
-// import jacket from "../../assets/jacket.png"
 const products = [
   {
     id: 1,
