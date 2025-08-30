@@ -1,31 +1,24 @@
 
 
-import img1 from "../../assets/74775730-cd51-4787-ab01-35ccc07f1120.webp"
-import img2 from "../../assets/asian-teenager-standing-with-book-park.jpg"
-import img3 from "../../assets/man-navy-jacket-shorts-streetwear.jpg"
-import img4 from "../../assets/man-winter-outfit-posing-outdoors-front-gate.jpg"
-// import img5 from "../../assets/portrait-man-wearing-lavender-colored-fashion-garments-color-year.jpg"
-// import img6 from "../../assets/portrait-middle-aged-man-taking-photos-with-device-world-photography-day.jpg"
-
 export default function SeasonSelection() {
 const products = [
   {
-    img: img1,
+    img: 'https://res.cloudinary.com/dnfqytupo/image/upload/v1756583256/74775730-cd51-4787-ab01-35ccc07f1120_ru1dfi.webp',
     title: "Anorak that can be worn comfortably without burden in any season",
     categories: ["Category 1", "Category 2", "Category 3"],
   },
   {
-    img: img2,
+    img: 'https://res.cloudinary.com/dnfqytupo/image/upload/v1756583264/asian-teenager-standing-with-book-park_gvvhsl.jpg',
     title: "Lightweight vest that maintains warmth",
     categories: ["Category 1", "Category 2", "Category 3"],
   },
   {
-    img: img3,
+    img: 'https://res.cloudinary.com/dnfqytupo/image/upload/v1756583264/man-winter-outfit-posing-outdoors-front-gate_rlcsfq.jpg',
     title: "Perfect fleece when cozy warmth is needed",
     categories: ["Category 1", "Category 2", "Category 3"],
   },
   {
-    img: img4,
+    img: 'https://res.cloudinary.com/dnfqytupo/image/upload/v1756583261/man-navy-jacket-shorts-streetwear_altxin.jpg',
     title: "A jacket that's popular when the chilly wind blows in autumn",
     categories: ["Category 1", "Category 2", "Category 3"],
   },

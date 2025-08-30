@@ -7,9 +7,12 @@ const HomePage = () => {
   return (
     <>
       <div
-        className="h-[100vh] bg-cover bg-center relative"
-        style={{ backgroundImage: `url(${img})` }}
-      >
+  className="h-[100vh] bg-cover bg-center relative"
+  style={{
+    backgroundImage: "url('https://res.cloudinary.com/dnfqytupo/image/upload/v1756583266/successful-handsome-man-by-car_npztcy.jpg')"
+  }}
+>
+
         {/* Overlay */}
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-transparent to-black/90"></div>
 

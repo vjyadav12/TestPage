@@ -1,6 +1,6 @@
 
 
-import jacket from "../../assets/jacket.png"
+// import jacket from "../../assets/jacket.png"
 const products = [
   {
     id: 1,
@@ -10,7 +10,7 @@ const products = [
     installment: "Installment: 6 months",
     colors: ["black", "gray", "yellow", "yellow", "yellow", "yellow", "yellow"],
     image:
-      jacket, // Replace with real image
+      'https://res.cloudinary.com/dnfqytupo/image/upload/v1756583257/Jacket_p7sudk.png', 
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const products = [
     installment: "Installment: 6 months",
     colors: ["black", "gray", "yellow", "yellow", "yellow", "yellow", "yellow"],
     image:
-     jacket,
+     'https://res.cloudinary.com/dnfqytupo/image/upload/v1756583257/Jacket_p7sudk.png',
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const products = [
     installment: "Installment: 6 months",
     colors: ["black", "gray", "yellow", "yellow", "yellow", "yellow", "yellow"],
     image:
-      jacket,
+      'https://res.cloudinary.com/dnfqytupo/image/upload/v1756583257/Jacket_p7sudk.png',
   },
   {
     id: 4,
@@ -40,7 +40,7 @@ const products = [
     installment: "Installment: 6 months",
     colors: ["black", "gray", "yellow", "yellow", "yellow", "yellow", "yellow"],
     image:
-      jacket,
+      'https://res.cloudinary.com/dnfqytupo/image/upload/v1756583257/Jacket_p7sudk.png',
   },
 ];
 
