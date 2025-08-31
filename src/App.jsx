@@ -1,5 +1,5 @@
-import Footer from "./Components/Pages/FooterSection";
-import Header from "./Components/Pages/Header";
+import Footer from "./Components/Section/FooterSection"
+import Header from "./Components/Section/Header"
 import HomePage from "./Components/Pages/HomePage";
 import LoginPage from "./Components/Pages/LoginPage";
 import { Routes, Route, useLocation } from "react-router-dom";

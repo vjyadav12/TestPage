@@ -1,5 +1,5 @@
-import BannerSection from "./BannerSection";
-import SeasonSelection from "./FirstSection";
+import BannerSection from "../Section/BannerSection"
+import SeasonSelection from "../Section/FirstSection";
 import ProductGrid from "./ProductPages";
 
 const HomePage = () => {
