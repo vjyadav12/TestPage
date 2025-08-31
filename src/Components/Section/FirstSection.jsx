@@ -1,24 +1,34 @@
 
+import img1 from "../../assets/img1.webp"
+import img2 from "../../assets/img2.jpg"
+import img3 from "../../assets/img3.jpg"
+import img4 from "../../assets/img4.jpg"
 
 export default function SeasonSelection() {
 const products = [
   {
-    img: 'https://res.cloudinary.com/dnfqytupo/image/upload/v1756583256/74775730-cd51-4787-ab01-35ccc07f1120_ru1dfi.webp',
+    img: img1,
     title: "Anorak that can be worn comfortably without burden in any season",
     categories: ["Category 1", "Category 2", "Category 3"],
   },
   {
-    img: 'https://res.cloudinary.com/dnfqytupo/image/upload/v1756583264/asian-teenager-standing-with-book-park_gvvhsl.jpg',
+    // img: 'https://res.cloudinary.com/dnfqytupo/image/upload/v1756583264/asian-teenager-standing-with-book-park_gvvhsl.jpg',
+    img: img2,
+
     title: "Lightweight vest that maintains warmth",
     categories: ["Category 1", "Category 2", "Category 3"],
   },
   {
-    img: 'https://res.cloudinary.com/dnfqytupo/image/upload/v1756583264/man-winter-outfit-posing-outdoors-front-gate_rlcsfq.jpg',
+    // img: 'https://res.cloudinary.com/dnfqytupo/image/upload/v1756583264/man-winter-outfit-posing-outdoors-front-gate_rlcsfq.jpg',
+    img: img3,
+
     title: "Perfect fleece when cozy warmth is needed",
     categories: ["Category 1", "Category 2", "Category 3"],
   },
   {
-    img: 'https://res.cloudinary.com/dnfqytupo/image/upload/v1756583261/man-navy-jacket-shorts-streetwear_altxin.jpg',
+    // img: 'https://res.cloudinary.com/dnfqytupo/image/upload/v1756583261/man-navy-jacket-shorts-streetwear_altxin.jpg',
+    img: img4,
+
     title: "A jacket that's popular when the chilly wind blows in autumn",
     categories: ["Category 1", "Category 2", "Category 3"],
   },

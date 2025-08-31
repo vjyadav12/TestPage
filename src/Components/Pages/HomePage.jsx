@@ -1,6 +1,7 @@
 import BannerSection from "../Section/BannerSection"
 import SeasonSelection from "../Section/FirstSection";
 import ProductGrid from "./ProductPages";
+import img from "../../assets/img7.jpg"
 
 const HomePage = () => {
   return (
@@ -8,7 +9,7 @@ const HomePage = () => {
       <div
   className="h-[100vh] bg-cover bg-center relative"
   style={{
-    backgroundImage: "url('https://res.cloudinary.com/dnfqytupo/image/upload/v1756583266/successful-handsome-man-by-car_npztcy.jpg')"
+    backgroundImage: `url(${img})`
   }}
 >
 
